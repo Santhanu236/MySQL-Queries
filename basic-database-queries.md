@@ -1,4 +1,4 @@
-#Basic Database Queries:
+# Basic Database Queries:
 ### Listing Databases:
 ``` syntax
 SHOW DATABASES;
