@@ -43,3 +43,21 @@ FROM Customers
 GROUP BY Country;
 ```
 ***
+
+### Having Query:
+#### Syntax:
+``` syntax
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition;
+```
+#### Example:
+``` syntax
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
+```
+***
