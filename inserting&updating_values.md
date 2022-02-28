@@ -39,3 +39,14 @@ SET age = 20
 WHERE id = 3;
 ```
 ***
+
+### Deleting a Row:
+#### Syntax
+``` syntax
+DELETE FROM <table-name> WHERE <condition>;
+```
+#### Example:
+``` syntax
+DELETE FROM studentDetails WHERE id = 7;
+```
+***
