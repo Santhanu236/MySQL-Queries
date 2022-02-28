@@ -65,3 +65,24 @@ ALTER TABLE studentlist DROP marks;
 ```
 ***
 
+### Renaming Tables:
+#### Syntax:
+``` syntax
+ALTER TABLE <table-name> RENAME <old-table-name> TO <new-table-name>;
+```
+#### Example:
+``` sytnax
+ALTER TABLE studentlist RENAME studentlist TO studentDetails;
+```
+***
+
+### Deleting (Droping) a Table:
+#### Syntax :
+``` syntax
+DROP TABLE <table-name>;
+```
+#### Example:
+``` syntax
+DROP TABLE studentDetails;
+```
+***
