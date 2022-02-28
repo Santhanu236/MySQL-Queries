@@ -86,3 +86,14 @@ DROP TABLE <table-name>;
 DROP TABLE studentDetails;
 ```
 ***
+
+### Emptying Data in a Table(TRUNCATE-ing):
+#### Syntax :
+``` syntax
+TRUNCATE TABLE <table-name>;
+```
+#### Example:
+``` syntax
+TRUNCATE TABLE studentDetails;
+```
+***
